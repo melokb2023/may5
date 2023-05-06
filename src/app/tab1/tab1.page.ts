@@ -11,4 +11,7 @@ export class Tab1Page {
     async openBrowser(){
       await Browser.open({url: 'https://www.google.com/?safe=active&ssui=on'});
      }
+    async openBrowser2(){
+      await Browser.open({url: 'https://www.facebook.com/'});
+     }
 }
