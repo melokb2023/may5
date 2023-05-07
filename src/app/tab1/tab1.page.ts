@@ -11,7 +11,13 @@ export class Tab1Page {
     async openBrowser(){
       await Browser.open({url: 'https://www.google.com/?safe=active&ssui=on'});
      }
-    async openBrowser2(){
-      await Browser.open({url: 'https://www.facebook.com/'});
+  async openBrowser2(){
+      await Browser.open({url: 'https://github.com/'});
+     }
+  async openBrowser3(){
+      await Browser.open({url: 'https://ionicframework.com/'});
+     }
+  async openBrowser4(){
+      await Browser.open({url: 'https://capacitorjs.com/'});
      }
 }

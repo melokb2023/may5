@@ -19,4 +19,14 @@ await toast.present();
 
 }
 
+async openToast2(position: 'bottom') {
+  const toast = await this.toastController.create({
+  message: 'Hello World!',
+  duration: 1500,
+  position: position,
+  });
+  await toast.present();
+  
+  }
+
 }
